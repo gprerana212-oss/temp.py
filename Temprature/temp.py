@@ -1,12 +1,8 @@
- temp float=(input("enter the temprature"))
+temp = float(input("Enter the temperature: "))
 
-if(temp <90)
-
-print(" temp cold")
-
-else
-if temp(<=80)
-
-print(" temp hot")
-
-else print("temp normal")
+if temp < 80:
+    print("Temp cold")
+elif temp > 90:
+    print("Temp hot")
+else:
+    print("Temp normal")
