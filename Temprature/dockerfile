@@ -1,7 +1,7 @@
-python slim-3.19
+FROM python:3.11-slim
 
-WORKDIR/app
+WORKDIR /app
 
-COPY . . 
+COPY . .
 
-CMD["python" temp.py]
+CMD ["python", "temp.py"]
